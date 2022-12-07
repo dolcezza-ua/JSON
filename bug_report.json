@@ -1,4 +1,4 @@
-"form": { 
+{ 
   "id": 2355454,
   "environment": "Windows 10 x 64",
   "browser": "Google Chrom, Firefox",
@@ -8,8 +8,11 @@
   "status": "Open",
   "title": "The image is not shown on the main page.", 
   "description": "The third image is not shown on the main page.",
-  "steps": {"1. Open the site http://trainingcentre.wixsite.com/dogblog.",
-	          "2. Pay attention to the third image on the main page."},
+  "steps": 
+     {
+      "1": "Open the site http://trainingcentre.wixsite.com/dogblog.",
+	    "2": "Pay attention to the third image on the main page."
+     },
   "actual_result": "The third image is not shown on the main page, but other images are shown on the main page.",
   "expected_result": "All images are shown on the main page."
 }
